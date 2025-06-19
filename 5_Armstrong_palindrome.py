@@ -36,7 +36,6 @@ def palindrome(num):
     else: 
         print(original, "is not a Palindrome number") 
 
-
 # User se input le rahe hain Palindrome check ke liye
 num = int(input("Enter a number to check if it is a Palindrome: ")) 
 palindrome(num)  # Palindrome function call kar rahe hain

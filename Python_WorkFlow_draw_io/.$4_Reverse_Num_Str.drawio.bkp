@@ -1,0 +1,138 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="4_Reverse_Num_Str" id="e5m4TzReDYiX07p-gSJK">
+    <mxGraphModel dx="1595" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="enmezmWXNxL0q6qQE_os-22" value="Start Program" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="370" width="114" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-23" value="Define reverse function that takes input value" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="253.5" y="453" width="347" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-24" value="Convert value to string and reverse using slicing ([::-1])" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="246.5" y="537" width="359" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-25" value="Return the reversed string" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="620" width="203" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-26" value="Start main program" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="704" width="154" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-27" value="Ask user to enter number or string" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295.5" y="787" width="262" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-28" value="Remove extra spaces using strip" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="444.5" y="870" width="244" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-29" value="Is input empty?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="954" width="158" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-30" value="Print error: Input cannot be empty" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="133.5" y="1180" width="265" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-31" value="Call reverse function with user input" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="448.5" y="1180" width="278" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-32" value="Store result in reverse_result" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="475.5" y="1263" width="224" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-33" value="Print reversed value to user" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="479.5" y="1347" width="215" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-34" target="enmezmWXNxL0q6qQE_os-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-34" value="End Program" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="534.5" y="1430" width="105" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-22" target="enmezmWXNxL0q6qQE_os-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-23" target="enmezmWXNxL0q6qQE_os-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-24" target="enmezmWXNxL0q6qQE_os-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-25" target="enmezmWXNxL0q6qQE_os-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-26" target="enmezmWXNxL0q6qQE_os-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-27" target="enmezmWXNxL0q6qQE_os-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="566.5" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-28" target="enmezmWXNxL0q6qQE_os-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-42" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.85;entryX=0.67;entryY=0;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-29" target="enmezmWXNxL0q6qQE_os-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405.5" y="1146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.48;exitY=0;entryX=0.23;entryY=1.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-30" target="enmezmWXNxL0q6qQE_os-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249.5" y="1146" />
+              <mxPoint x="249.5" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-44" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-29" target="enmezmWXNxL0q6qQE_os-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="587.5" y="1146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-31" target="enmezmWXNxL0q6qQE_os-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.03;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-32" target="enmezmWXNxL0q6qQE_os-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-33" target="enmezmWXNxL0q6qQE_os-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-48" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;4. Write a function that reverses the user defined value.&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-49" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="495.38" y="1540" width="184.25" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="enmezmWXNxL0q6qQE_os-51" target="enmezmWXNxL0q6qQE_os-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enmezmWXNxL0q6qQE_os-51" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="334" y="180" width="184.25" height="83" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,18 +1,28 @@
-# Write a function that reverses the user defined value. 
+# Write a function that reverses the user defined value.
+
+
+
 
 def reverse(value):
     return str(value)[::-1]
 
-# users = int(input("Enter the number or string which you want to reverse: "))
+def main():
+    while True:
+        users = input("Enter the number or string which you want to reverse: ").strip()
 
-users = input("Enter the number or string which you want to reverse: ").strip()
+        if users == "":
+            print("❌ Input cannot be empty. Please try again.")
+            continue
 
+        reverse_result = reverse(users)
+        print("✅ Here the reverse value is:", reverse_result)
+        break
 
-reverse_result = reverse(users)
-print("Here the reverse Value is: ",reverse_result)
-
+if __name__ == "__main__":
+    main()
 
 # 
+# # 
 # # user defined value ko reverse karne ke liye function bana rahe hain
 # def reverse(value):  # reverse naam ka function define kiya gaya hai jo ek value lega
 #     return str(value)[::-1]  # value ko pehle string me convert kar ke slicing se reverse kar rahe hain
