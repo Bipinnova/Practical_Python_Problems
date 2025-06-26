@@ -10,11 +10,6 @@ print("Original List:", data_1)
 print("Cloned List:  ", cloned)
 
 
-
-
-
-
-# 
 # Method - 2
 
 # a = [2,3,45,6]

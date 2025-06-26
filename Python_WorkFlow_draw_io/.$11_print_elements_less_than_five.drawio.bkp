@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="KyJUvcKeK11RTsGHfe_2">
+    <mxGraphModel dx="2590" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kse7wbe-E2ncAyoVyV04-2" value="Define the list &#39;a&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="734" y="555" width="135" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-3" value="Loop through each element in &#39;a&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="677" y="639" width="249" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-4" value="Check if element &amp;lt;= 5" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="741" width="192" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-5" value="Print or store the element" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="617" y="842" width="203" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-6" value="Skip to next element" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="899" y="842" width="165" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kse7wbe-E2ncAyoVyV04-17" target="kse7wbe-E2ncAyoVyV04-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="801" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="kse7wbe-E2ncAyoVyV04-2" target="kse7wbe-E2ncAyoVyV04-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="kse7wbe-E2ncAyoVyV04-3" target="kse7wbe-E2ncAyoVyV04-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="586" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-11" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.28;entryY=0.01;rounded=0;" edge="1" parent="1" source="kse7wbe-E2ncAyoVyV04-4" target="kse7wbe-E2ncAyoVyV04-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="586" y="808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-12" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.3;entryY=0.01;rounded=0;" edge="1" parent="1" source="kse7wbe-E2ncAyoVyV04-4" target="kse7wbe-E2ncAyoVyV04-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="879" y="808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=0.01;entryX=0.56;entryY=1.01;rounded=0;" edge="1" parent="1" source="kse7wbe-E2ncAyoVyV04-5" target="kse7wbe-E2ncAyoVyV04-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="808" />
+              <mxPoint x="850" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=0.01;entryX=0.76;entryY=1.01;rounded=0;" edge="1" parent="1" source="kse7wbe-E2ncAyoVyV04-6" target="kse7wbe-E2ncAyoVyV04-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="996" y="808" />
+              <mxPoint x="996" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-15" value="All elements checked" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kse7wbe-E2ncAyoVyV04-3" target="kse7wbe-E2ncAyoVyV04-18">
+          <mxGeometry x="-0.1106" y="-26" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="762" />
+            </Array>
+            <mxPoint x="1220" y="922" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-17" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="709.38" y="382" width="184.25" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1129" y="932" width="184.25" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="kse7wbe-E2ncAyoVyV04-19" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;Take a list, say for example this one:&lt;br&gt;&amp;nbsp;a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]&lt;br&gt;&amp;nbsp;and write a program that prints out all the elements of the list that are less than 5.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="1170" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

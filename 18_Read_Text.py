@@ -1,17 +1,32 @@
 #  Write a Python program to read an entire text file.
 
-# Ask the user for the file name
-file_name = input("Enter the file name: ")
+def read_file():
+    file_name = input("Enter the file name: ").strip()
 
-# Open the file in read mode
-file = open(file_name, 'r')
+    try:
+        # Safely opens the file and ensures it closes automatically
+        with open(file_name, 'r') as file:
+            # Read the entire content
+            content = file.read()
+            # Print the content
+            print("\n✅ File Content:\n")
+            print(content)
 
-# Read the entire content
-content = file.read()
+    except FileNotFoundError:
+        print("❌ Error: File not found. Please check the file name and path.")
+    except Exception as e:
+        print(f"❌ An error occurred: {e}")
 
-# Print the content
-print("File Content:\n")
-print(content)
+read_file()
 
-# Close the file
-file.close()
+
+
+
+# # Ask the user for the file name
+# file_name = input("Enter the file name: ")
+# file = open(file_name, 'r')
+# content = file.read()
+# print("File Content:\n")
+# print(content)
+# # Close the file
+# file.close()

@@ -5,7 +5,6 @@
 # dic3={5:50,6:60} 
 # Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 
-
 # Time and space complexity: O(n)
 
 dic1={1:10, 2:20}  

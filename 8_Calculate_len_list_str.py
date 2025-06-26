@@ -1,6 +1,4 @@
-# b.  Define a function that computes or calculate the length of a given list or string.  
-#
-
+# b.  Define a function that computes or calculate the length of a given list or string. 
 
 def compute_len(data):
    print(len(data))
